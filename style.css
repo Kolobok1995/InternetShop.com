@@ -1,0 +1,223 @@
+
+body{
+   /* background: url("images/bg.png");*/
+    background-size: 200px ;
+
+
+
+}
+
+.body{
+    font-size: 0;
+    margin: 0 auto;
+    width: 1200px;
+    background: lightcyan;
+    min-height: 1000px;
+    rotation: 90deg;
+
+
+}
+
+.active{
+    background: #cffaff;
+}
+
+/*------------------------------------/*Header*/
+.header{
+    border: 2px solid black;
+    position: relative;
+    width: 100%;
+
+}
+.header .info{
+    background: rgba(106, 202, 255, 0.32);
+    height: 100px;
+    font-size: 45px;
+}
+
+.header .cart{
+    background: linear-gradient(#c6e4f5, #c200ff);
+    height: 50px;
+    font-size: 12px;
+
+}
+.header .cart img{
+    width: 50px;
+
+ }
+.header .reg-block{
+    font-size: 15px;
+    margin: 0 7px;
+    min-height: 12px;
+
+
+
+}
+.header .reg-block .enter{
+    display: block;
+    padding: 3px;
+    margin: 5px;
+
+
+ }
+.header .reg-block .register{
+    display: none;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 15px;
+ }
+.header .reg-block .register button{
+
+    padding: 10px;
+    margin: 3px;
+
+}
+.header .reg-block .register h3{
+line-height: 5px;
+
+}
+.header .reg-block .register input{
+    margin-left: 40px;
+    margin-bottom: 2px;
+
+}
+.header .reg-block .register label{
+  display: inline-block;
+    min-width:100px ;
+
+}
+.header .reg-block .register samp{
+ margin-left: 15px;
+
+}
+
+
+/*----------/////////////////////////////////////////////////////------------SHOP*/
+
+
+.body .shop .header{
+    border: 2px solid black;
+    position: relative;
+    z-index: 140;
+    width: 100%;
+    height: 250px;
+    background: url("images/backgraung/2.jpg");
+    background-size: 100%;
+    background-position: 0 -100px;
+    font-size: 35px;
+
+    transition: 0.5s;
+
+}
+
+.body .shop .header .title{
+    display: block;
+    font-size: 35px;
+    transition: 0.5s;
+    margin: 45px;
+}
+
+.body .shop .header:hover .title{
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #000000, 2px 2px 0.4em #ff00f5; /* Параметры тени */
+    color: #e6fffd;
+    margin: 1.8em 8em;
+
+}
+
+
+
+.body .shop .main{
+    display: none;
+    min-height: 50px;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top: 25px;
+    background: rgba(112, 0, 255, 0.25);
+}
+
+.body .shop .main .product {
+    display: inline-block;
+    margin: 15px;
+   /*border: 2px solid rgba(0, 0, 0, 0.17);*/
+
+}
+.body .shop .main .product img {
+    width: 250px;
+    margin: 4px;
+}
+.body .shop .main .product samp {
+     color: red;
+    background: white;
+    font-size: 30px;
+    margin-left: 5px;
+ }
+
+#addCart {
+    padding: 0 35px;
+    font-size: 40px;
+    margin: 2px 5px;
+}
+
+#addCart img{
+
+    width: 40px;
+    position: relative;
+    top: 7px;
+    right: 8px;
+
+}
+
+
+
+
+/*----------/////////////////////////////////////////////////////------------INTEREST*/
+
+.body .interest .header{
+    border: 2px solid black;
+    position: relative;
+    z-index: 140;
+    width: 100%;
+    height: 250px;
+    background: url("images/backgraung/3.jpg");
+    background-size: 100%;
+    background-position: 0 -300px;
+    transition: 0.5s;
+}
+
+.body .interest .main{
+    display: none;
+    min-height: 50px;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top: 25px;
+    background: rgba(112, 0, 255, 0.25);
+}
+
+
+
+
+/*----------/////////////////////////////////////////////////////------------Drow*/
+
+
+.body .drow .header{
+    border: 2px solid black;
+    position: relative;
+    z-index: 140;
+    width: 100%;
+    height: 250px;
+    background: url("images/backgraung/4.jpg");
+    background-size:  100% ;
+    background-position: 0 -150px;
+    transition: 0.5s;
+
+}
+
+.body .drow .main{
+    display: none;
+    min-height: 50px;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top: 25px;
+    background: rgba(112, 0, 255, 0.25);
+}
